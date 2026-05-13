@@ -69,7 +69,7 @@ a{color:inherit}
 
 .hero{
   position:relative;
-  min-height:91vh;
+  min-height:72vh;
   display:flex;
   align-items:center;
   overflow:hidden;
@@ -82,16 +82,27 @@ a{color:inherit}
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:center 42%;
-  filter:brightness(1.18);
+  object-position:center 32%;
+  filter:brightness(1.28) contrast(1.03);
+  transform:scale(1.02);
 }
 
 .hero-scrim{
   position:absolute;
   inset:0;
   background:
-    linear-gradient(90deg,rgba(10,7,4,.82) 0%,rgba(13,8,5,.58) 31%,rgba(13,8,5,.18) 60%,rgba(13,8,5,.04) 100%),
-    linear-gradient(0deg,rgba(15,10,6,.48),rgba(15,10,6,.04) 50%);
+    linear-gradient(
+      90deg,
+      rgba(10,7,4,.62) 0%,
+      rgba(13,8,5,.38) 28%,
+      rgba(13,8,5,.10) 56%,
+      rgba(13,8,5,.02) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(15,10,6,.28),
+      rgba(15,10,6,.02) 52%
+    );
 }
 
 .hero-content{
