@@ -387,10 +387,10 @@ a{color:inherit}
   width:100vw;
   height:100%;
   max-width:none;
-  object-fit:contain;
+  object-fit:cover;
   object-position:center top;
   filter:brightness(1.45) contrast(1.02);
-  transform:none;
+  transform: scale(.55);
 }
 
   .hero-scrim{
