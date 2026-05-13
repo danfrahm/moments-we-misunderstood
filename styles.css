@@ -362,7 +362,7 @@ a{color:inherit}
   .site-header{
     position:absolute;
     align-items:flex-start;
-    padding:24px 10vw 0;
+    padding:24px 5vw;
   }
 
   .brand{
