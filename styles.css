@@ -365,11 +365,12 @@ a{color:inherit}
     overflow-x:hidden;
   }
 
-  .site-header{
-    position:absolute;
-    align-items:flex-start;
-    padding:24px 22px;
-  }
+.site-header{
+  position:relative;
+  align-items:flex-start;
+  padding:24px 22px;
+  background:var(--bg);
+}
 
   .brand{
     font-size:24px;
@@ -389,7 +390,7 @@ a{color:inherit}
     width:100%;
     min-width:0;
     margin:0;
-    padding:0;
+    padding-top:0;
     align-items:flex-end;
     overflow:hidden;
   }
