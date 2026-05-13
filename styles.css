@@ -69,7 +69,7 @@ a{color:inherit}
 
 .hero{
   position:relative;
-  min-height:72vh;
+  min-height:94vh;
   display:flex;
   align-items:center;
   overflow:hidden;
@@ -84,7 +84,7 @@ a{color:inherit}
   object-fit:cover;
   object-position:center 32%;
   filter:brightness(1.28) contrast(1.03);
-  transform:scale(1.02);
+  transform:scale(.82);
 }
 
 .hero-scrim{
