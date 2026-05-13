@@ -374,8 +374,8 @@ a{color:inherit}
   }
 
 .hero{
-  min-height:120vh;
-  width:100vw;
+  min-height:80vh;
+  width:110vw;
   margin:0;
   padding:0;
   align-items:flex-end;
